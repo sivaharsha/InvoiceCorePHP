@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Invoice</title>
+    <style>
+        .main_table table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        .main_table td,
+        .main_table th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        .main_table tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+
+        .summary {
+            padding-left: 70%;
+        }
+
+        .center {
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class='center'>
+            <h4>
+                Invoice
+            </h4>
+        </div>
+        <div class='main_table'>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Quantity</th>
+                    <th>Unit price</th>
+                    <th>Tax</th>
+                    <th>Total</th>
+                </tr>
+                BODY
+            </table>
+
+        </div>
+        <br />
+        <div class="summary">
+            <div>
+                Sub total without tax: SUB_TOT_WOT
+            </div>
+            <div>
+                Sub total with tax: SUB_TOT_WT
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
